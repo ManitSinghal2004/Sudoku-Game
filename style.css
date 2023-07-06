@@ -1,0 +1,301 @@
+body{
+   background-color: #333333;
+   color:white;
+   font-family: sans-serif;
+}
+h1{
+    margin-top: 2%;
+    text-align: CENTER;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: XXX-LARGE;
+}
+.box{
+    height: 156px;
+    width: 156px;
+    border: solid white 2px;
+    background-color: #333333;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+#main{
+    height: 480px;
+    width: 480px;
+    border: solid white 4px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 32.5%;
+    margin-top: 4%;
+}
+.cell{
+    height: 50px;
+    width: 50px;
+    border: solid white 1px;
+    text-align: center;
+    background-color: #333333;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+input{
+    height: 45px;
+    width: 44px;
+    border: none;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: #333333;
+    color: white;
+}
+button{
+    height: 70px;
+    width: 200px;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: red;
+    border: solid 4px black;
+    border-radius: 30px;
+    color: white;
+    position: absolute;
+    cursor: pointer;
+}
+#start{
+    top: 26%;
+    left: 5%;
+}
+#replay{
+    top: 45%;
+    left: 5%;
+}
+#answer{
+    top: 65%;
+    left: 5%;
+}
+
+#game_type{
+    position: absolute;
+    top: 24%;
+    left: 75%;
+    
+}
+
+.label{
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+}
+
+#help{
+    left: 0%;
+    top: 150%;
+}
+#lives{
+    position: absolute;
+    top: 13%;
+    left: 72%;
+    color: orangered;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+#timer{
+    top: 10%;
+    position: absolute;
+    left: 3%;
+    font-size: x-large;
+    color: white;
+    font-weight: bold;
+    
+}
+
+@media (max-width: 768px) {
+    h1{
+        font-weight: 500;
+        font-size: XXX-LARGE;
+        margin-top: 5%;
+    }
+    .box{
+        height: 156px;
+        width: 156px;
+        border: solid white 2px;
+        background-color: #333333;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    #main{
+        height: 480px;
+        width: 480px;
+        border: solid white 4px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    .cell{
+        height: 50px;
+        width: 50px;
+        border: solid white 1px;
+        text-align: center;
+        background-color: #333333;
+        text-align: center;
+        font-size: x-large;
+        font-weight: bold;
+    }
+    input{
+        height: 45px;
+        width: 44px;
+        border: none;
+        text-align: center;
+        font-size: x-large;
+        font-weight: bold;
+        background-color: #333333;
+        color: white;
+    }
+    #timer{
+        top: 75%;
+        position: absolute;
+        left: 25%;
+        font-size: xx-large;
+        color: white;
+        font-weight: bold;
+        
+    }
+    #lives{
+        position: absolute;
+        top: 82%;
+        left: 23%;
+        color: orangered;
+        font-weight: bold;
+        font-size: xx-large;
+    }
+    button{
+        height: 70px;
+        width: 180px;
+        font-size: x-large;
+    }
+    #start{
+        top: 90%;
+        left: 5%;
+    }
+    #replay{
+        top: 90%;
+        left: 35%;
+    }
+    #answer{
+        top: 90%;
+        left: 65%;
+    }
+    #help{
+        top: 30%;
+        left: 170%;
+    }
+    #game_type{
+        /* position: absolute; */
+        top: 100%;
+        left: 5%;
+        
+    }
+    
+    .label{
+        height: 15px;
+        width: 15px;
+        cursor: pointer;
+    }
+    
+}
+
+@media (max-width: 400px) {
+    h1{
+        font-weight: 500;
+        font-size: X-LARGE;
+        margin-top: 5%;
+    }
+    .box{
+        height: 78px;
+        width: 78px;
+        border: solid white 1px;
+        background-color: #333333;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    #main{
+        height: 240px;
+        width: 240px;
+        border: solid white 2px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 16%;
+        margin-top: 5%;
+    }
+    .cell{
+        height: 25px;
+        width: 25px;
+        border: solid white 0.5px;
+        text-align: center;
+        background-color: #333333;
+        text-align: center;
+        font-size: x-large;
+        font-weight: bold;
+    }
+    input{
+        height: 22.5px;
+        width: 22px;
+        border: none;
+        text-align: center;
+        font-size: x-large;
+        font-weight: bold;
+        background-color: #333333;
+        color: white;
+    }
+    #timer{
+        top: 45%;
+        position: absolute;
+        left: 25%;
+        font-size: large;
+        color: white;
+        font-weight: bold;
+        
+    }
+    #lives{
+        position: absolute;
+        top: 50%;
+        left: 23%;
+        color: orangered;
+        font-weight: bold;
+        font-size: large;
+    }
+    button{
+        height: 50px;
+        width: 150px;
+        font-size: large;
+    }
+    #start{
+        top: 55%;
+        left: 5%;
+    }
+    #replay{
+        top: 55%;
+        left: 45%;
+    }
+    #answer{
+        top: 65%;
+        left: 5%;
+    }
+    #help{
+        top: 110%;
+        left: 40%;
+    }
+    #game_type{
+        /* position: absolute; */
+        top: 75%;
+        left: 5%;
+        
+    }
+    
+    .label{
+        height: 15px;
+        width: 15px;
+        cursor: pointer;
+    }
+    
+}
