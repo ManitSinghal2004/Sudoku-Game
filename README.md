@@ -7,6 +7,13 @@ To accommodate players of different skill levels, I incorporated a difficulty se
 
 The game's interface is intuitive and user-friendly, with an aesthetically pleasing design that enhances the overall gaming experience. I focused on providing a clean layout that allows players to easily navigate through the grid and input their answers without any confusion or hindrance.
 
+<img width="1375" alt="image" src="https://github.com/ManitSinghal2004/Sudoku-Game/assets/97463501/60c03bed-ba1c-4f2a-8325-052085fa1778">
+
+
 Under the hood, the game utilizes a backtracking algorithm to generate and solve Sudoku puzzles. This algorithm ensures that each puzzle is solvable and avoids any ambiguous or unsolvable situations. By implementing this logic, I aimed to provide users with an authentic Sudoku experience that stays true to the rules and principles of the game.
 
 Overall, my Sudoku game combines a robust backtracking algorithm, a timer feature, difficulty levels, and a user-friendly interface to create an engaging and enjoyable gaming experience for players of all skill levels.
+
+<img width="1389" alt="image" src="https://github.com/ManitSinghal2004/Sudoku-Game/assets/97463501/cfa68ebd-4594-4821-a34d-8c9d3da16610">
+
+Link to the deployed site : https://manitsinghal2004.github.io/Sudoku-Game/
